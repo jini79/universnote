@@ -1,0 +1,4 @@
+// types/custom.d.ts (파일명은 자유)
+declare module 'google-auth-library';
+declare module 'y-websocket';
+declare module 'y-prosemirror';
