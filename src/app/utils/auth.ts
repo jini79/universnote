@@ -9,7 +9,8 @@ export interface User {
 export function signInWithGoogle(): void {
   const domain = "ap-northeast-2tm3dta7n0.auth.ap-northeast-2.amazoncognito.com";
   const clientId = "59ol2p25jjbe1gvl6c8g4s6vh4";
-  const redirectUri = "http://localhost:3000/callback";
+  const redirectUri = "https://universnote.com/callback";
+  // const redirectUri = "http://localhost:3000/callback";
   const scope = encodeURIComponent("openid email profile");  // 이메일 포함된 scope
   const responseType = "token"; // Implicit Flow
   const state = "random_state_" + Date.now();
